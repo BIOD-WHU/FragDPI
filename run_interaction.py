@@ -258,7 +258,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # local test
-    os.environ["CUDA_VISIBLE_DEVICES"] = "5"
+    # os.environ["CUDA_VISIBLE_DEVICES"] = "5"
     # args.task = 'train'
     # args.epochs = 30
     # args.lr = 1e-5
@@ -297,7 +297,7 @@ if __name__ == '__main__':
     # args.output = './predict/add_pretrain_1019-s-329480-kinase'
     args.config = './config/config_layer_6_mol.json'
     args.output = "./predict/test"
-    args.batch_size = 1
+    # args.batch_size = 1
     
     
     # test ori

@@ -168,7 +168,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # local test
-    os.environ["CUDA_VISIBLE_DEVICES"] = "5"
+    # os.environ["CUDA_VISIBLE_DEVICES"] = "5"
     # args.task = 'pre-train'
     # args.savedir = 'mask-LM-layer-6-dobule-1020'
     # # args.savedir = 'train'
@@ -178,9 +178,9 @@ if __name__ == '__main__':
 
 
 
-    args.task = 'test-pre-train'
-    args.init = './model/add_pretrain_1019/epoch-9-step-329480-loss-0.736057146887367.pth'
-    args.output = './predict/test-pre-train'
-    args.config = './config/config_layer_6_mol.json'
+    # args.task = 'test-pre-train'
+    # args.init = './model/add_pretrain_1019/epoch-9-step-329480-loss-0.736057146887367.pth'
+    # args.output = './predict/test-pre-train'
+    # args.config = './config/config_layer_6_mol.json'
     main(args)
 
