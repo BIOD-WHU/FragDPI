@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python run_interaction.py --task=test --b=64 --output=./predict/lr-1e-5-batch-32-e-10-layer3-0503-z-1-step-65896 --config=./config/config_layer_3.json --init=./model/lr-1e-5-batch-32-e-10-layer3-0503-z-1/epoch-7-step-65896-loss-0.39236504916727866.pth --do_eval='True'
