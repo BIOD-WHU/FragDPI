@@ -278,13 +278,18 @@ if __name__ == '__main__':
 
 
 
+    # 测试代码
+    # args.task = 'test_mol'
+    # args.config = './config/config_layer_6_mol.json'
+    # args.output = "./predict/test"
+    # args.init = './model/add_pretrain_1019/epoch-9-step-329480-loss-0.736057146887367.pth'
 
-    args.task = 'test_mol'
     # args.task = 'test_er'
     # args.task = 'test_gpcr'
     # args.task = 'test_channel'
     # args.task = 'test_kinase'
-    args.init = './model/add_pretrain_1019/epoch-9-step-329480-loss-0.736057146887367.pth'
+    
+    
     # args.init = './model/without-pre-train-layer-6-1021/epoch-29-step-988440-loss-0.19894360158554475.pth'
     # args.output = './predict/without-pre-train-layer-6-1021-s-988440-test'
     # args.output = './predict/without-pre-train-layer-6-1021-s-988440-gpcr'
@@ -295,8 +300,6 @@ if __name__ == '__main__':
     # args.output = './predict/add_pretrain_1019-s-329480-gpcr'
     # args.output = './predict/add_pretrain_1019-s-329480-channel'
     # args.output = './predict/add_pretrain_1019-s-329480-kinase'
-    args.config = './config/config_layer_6_mol.json'
-    args.output = "./predict/test"
     # args.batch_size = 1
     
     
